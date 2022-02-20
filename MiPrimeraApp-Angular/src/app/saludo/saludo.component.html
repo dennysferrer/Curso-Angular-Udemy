@@ -1,3 +1,11 @@
 <div class="container">
-    <h2>Saludo desde componente Saludo</h2>
+    <h2>{{ mensaje }}</h2>
 </div>
+<div>
+    {{ mostrarSaludo() }}
+</div>
+<p id="{{identiParrafo}}">Parrafo</p>
+<p [id]="identiParrafo">Otro Parrafo</p>
+
+<input type="{{identiInput}}">
+<input [type]="identiInput">
