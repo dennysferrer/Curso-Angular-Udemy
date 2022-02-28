@@ -1,0 +1,31 @@
+.container{
+    background: papayawhip;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+.container p {
+    font-size: larger;
+}
+.btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cuadrado {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadrado .p {
+    font-size:xx-large;
+    font-weight: bold;
+}

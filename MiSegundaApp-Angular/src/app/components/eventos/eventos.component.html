@@ -1,0 +1,18 @@
+<div class="container">
+    <div>
+        <p class="subtitle">
+            Botón de Prueba
+        </p>
+    </div>
+    <button class="btn" (click)="onClick($event)">Aceptar</button>
+    <div class="selector">
+        <select (change)="onSelect($event)">
+            <option value="uno">Uno</option>
+            <option value="dos">Dos</option>
+            <option value="tres">Tres</option>
+        </select>
+    </div>
+</div>
+<div class="cuadrado" (mouseenter)="mouseEnter()" (mouseout)="mouseOut()">
+    <p> {{mensaje}} </p>
+</div>
